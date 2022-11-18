@@ -30,9 +30,9 @@ function preload() {
   brokenBoatSpritesheet = loadImage("assets/boat/broken_boat.png");
   waterSplashSpritedata = loadJSON("assets/water_splash/water_splash.json");
   waterSplashSpritesheet = loadImage("assets/water_splash/water_splash.png");
-  waterSound = loadSound("./assets/cannon_water.mp3")
-  pirateLaughSound = loadSound("/.assets/pirate_laugh.mp3")
-  cannonExploxion = loadSound("/.assets/cannon_explosion.mp3")
+  waterSound = loadSound("./assets/cannon_water.mp3");
+  pirateLaughSound = loadSound("/.assets/pirate_laugh.mp3");
+  cannonExploxion = loadSound("/.assets/cannon_explosion.mp3");
 }
 
 function setup() {
